@@ -117,7 +117,7 @@
     </section>
     <!--our team section-->
     <section class="team section">
-      <div class="container">
+      <div class="container ">
         <h2 class="team-title">Наша команда</h2>
         <ul class="team-list list">
           <li class="item">
@@ -370,12 +370,16 @@
     
    </footer>
     <!--modal window -->
-    <div class="backdrop is-hidden" data-modal>
+  <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        <button data-modal-close>Close</button>
+        
+        <button class="close-btn" data-modal-close>
+           <svg class="icon" width='20' height='20' >
+              <use href='../images/icons.svg#icon-close'></use>
+           </svg>
+        </button>
       </div>
-    </div>
+  </div>
     <!-- Ставим перед закрывающим тегом body -->
     <script src="./js/modal.js"></script>
 </body>
